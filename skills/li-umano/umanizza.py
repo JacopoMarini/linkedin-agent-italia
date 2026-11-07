@@ -51,13 +51,16 @@ def _cp(spec):
 
 
 def proteggi_url(text):
+    """Mette da parte link e citazioni tra virgolette, così nessun passaggio
+    li riscrive. Le virgolette curve vengono comunque raddrizzate dopo."""
     trovati = []
 
     def stash(m):
         trovati.append(m.group(0))
         return f"\x00URL{len(trovati) - 1}\x00"
 
-    return URL_RE.sub(stash, text), trovati
+    text = URL_RE.sub(stash, text)
+    return lingua.CITAZIONE_RE.sub(stash, text), trovati
 
 
 def ripristina_url(text, trovati):
@@ -160,6 +163,7 @@ def passo_lessico(text, lex, lang):
 
 
 def scansiona_strutture(text, lex):
+    text = lingua.togli_citazioni(text)
     flags = []
     for s in lex["structures"]:
         try:
@@ -189,6 +193,8 @@ def umanizza(text, lex, lang):
     text, tipo = passo_tipografia(text, lex)
     text, lessi, segnalate = passo_lessico(text, lex, lang)
     text = ripristina_url(text, urls)
+    # Le citazioni erano protette: raddrizzo solo le loro virgolette curve.
+    text = text.replace("“", '"').replace("”", '"')
     return text.strip() + "\n", {
         "lingua": lang,
         "invisible": inv,

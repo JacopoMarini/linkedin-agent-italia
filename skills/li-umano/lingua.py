@@ -65,6 +65,18 @@ def frasi(text):
     return [s.strip() for s in SENT_RE.findall(text) if len(s.split()) > 2]
 
 
+# Testo tra virgolette: è una citazione, non un uso. Un post che prende in
+# giro "sono entusiasta di annunciare" non deve vederselo riscrivere.
+# Massimo 200 caratteri e niente a capo, per non scambiare un apostrofo o
+# una virgoletta rimasta aperta per una citazione lunga mezzo post.
+CITAZIONE_RE = re.compile(r'"[^"\n]{1,200}"|«[^»\n]{1,200}»|“[^”\n]{1,200}”')
+
+
+def togli_citazioni(text):
+    """Testo con le citazioni sostituite da spazi della stessa lunghezza."""
+    return CITAZIONE_RE.sub(lambda m: " " * len(m.group(0)), text)
+
+
 def pattern_voce(find):
     """Regex per una voce del lessico: confini di parola Unicode, spazi elastici,
     apostrofo dritto o tipografico indifferente."""

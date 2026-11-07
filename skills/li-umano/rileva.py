@@ -79,6 +79,7 @@ def ctrl_cliche(text, lex):
     if not w:
         return 50.0, "vuoto"
     hits, trovate = 0, []
+    text = lingua.togli_citazioni(text)
     for voce in lex["words"] + lex["phrases"]:
         n = len(lingua.pattern_voce(voce["find"]).findall(text))
         if n:
@@ -106,6 +107,7 @@ def ctrl_impronta(text, lang):
 
 
 def _strutture(text, lex):
+    text = lingua.togli_citazioni(text)
     tells, nomi = 0, []
     for s in lex["structures"]:
         try:

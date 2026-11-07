@@ -46,6 +46,10 @@ mettono da soli in "l’IA" viene normalizzato ma **non penalizzato**.
 → "conta molto", "sono entusiasta di annunciare" → "annuncio", "sinergia" →
 "collaborazione", "è importante sottolineare che" → eliminata.
 
+**Le citazioni non si toccano.** Il testo tra virgolette ("...", «...»,
+“...”) è una citazione, non un uso: non viene riscritto e non conta nel
+punteggio. Così un post che critica i cliché può citarli.
+
 ## Cosa NON si sistema da solo
 
 **Parole da riscrivere.** In italiano molti aggettivi cambiano con genere e
