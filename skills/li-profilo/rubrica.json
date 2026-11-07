@@ -1,0 +1,67 @@
+{
+  "version": "1.0-it",
+  "total": 100,
+  "note": "Dodici voci. Valuta ogni voce con onestà: un punteggio generoso non serve a nessuno. Al primo giro la maggior parte dei profili sta tra 30 e 50.",
+  "items": [
+    {
+      "id": "titolo",
+      "points": 12,
+      "full_marks": "Dice chi aiuti e cosa cambia per loro, contiene una prova, e non è solo il nome del ruolo. Usa i 220 caratteri, non 60. Niente 'Appassionato di' e niente elenco di tecnologie separate da barre."
+    },
+    {
+      "id": "informazioni_apertura",
+      "points": 10,
+      "full_marks": "Le prime due righe, cioè tutto ciò che si vede prima di 'vedi altro', nominano il problema del lettore. Niente 'appassionato di', niente biografia in terza persona, niente apertura con il proprio nome."
+    },
+    {
+      "id": "informazioni_corpo",
+      "points": 10,
+      "full_marks": "Scritto a una persona, in seconda persona: il suo problema, cosa fai, un numero come prova, cosa fare dopo. Sotto i 1.400 caratteri."
+    },
+    {
+      "id": "in_primo_piano",
+      "points": 8,
+      "full_marks": "Tre elementi: il post che ha funzionato meglio, una prova del tuo lavoro e il modo per contattarti. Niente di vuoto, niente di vecchio."
+    },
+    {
+      "id": "immagine_copertina",
+      "points": 6,
+      "full_marks": "Una riga di posizionamento e un modo per contattarti. Non lo sfondo predefinito, non uno skyline da banca immagini."
+    },
+    {
+      "id": "foto",
+      "points": 6,
+      "full_marks": "Il viso occupa circa il 60% dell'inquadratura, occhi visibili, foto degli ultimi due anni, sfondo che non distrae."
+    },
+    {
+      "id": "ruolo_attuale",
+      "points": 10,
+      "full_marks": "Una riga sul perimetro del ruolo, poi due o tre risultati con numeri. Le mansioni non sono risultati. Niente nomi o cifre di clienti sotto riservatezza."
+    },
+    {
+      "id": "esperienze",
+      "points": 8,
+      "full_marks": "Ultimi due ruoli dettagliati, tutto ciò che ha più di dieci anni ridotto a una riga."
+    },
+    {
+      "id": "competenze",
+      "points": 6,
+      "full_marks": "Le prime tre competenze sono quelle per cui vuoi essere assunto o scelto, e hanno conferme. Le altre 47 sono rumore."
+    },
+    {
+      "id": "referenze",
+      "points": 8,
+      "full_marks": "Almeno tre segnalazioni ricevute negli ultimi due anni, ognuna con un risultato preciso invece di un giudizio sul carattere."
+    },
+    {
+      "id": "attivita",
+      "points": 10,
+      "full_marks": "Un post o un commento negli ultimi sette giorni. Un'attività vuota fa sembrare il profilo abbandonato."
+    },
+    {
+      "id": "contatti_e_lingua",
+      "points": 6,
+      "full_marks": "URL personalizzato, email o link di prenotazione funzionante nelle informazioni di contatto, stesso nome utente delle altre piattaforme. Se lavori o cerchi lavoro anche all'estero: profilo nella lingua secondaria (inglese) creato con la funzione apposita di LinkedIn, non un profilo misto italiano-inglese."
+    }
+  ]
+}

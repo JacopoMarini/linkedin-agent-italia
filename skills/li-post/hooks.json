@@ -1,0 +1,182 @@
+{
+  "version": "1.0-it",
+  "note": "21 formule di apertura per LinkedIn in italiano. La prima riga è tutto: il feed taglia a circa 210 caratteri su desktop e 140 su mobile prima di 'vedi altro', quindi l'apertura deve reggersi da sola. In italiano le parole sono più lunghe che in inglese: conta i caratteri, non le parole. Ogni formula ha uno schema, un esempio, a cosa serve e come di solito si rovina.",
+  "rules": [
+    "Un'idea per apertura. Se serve una virgola di troppo, servono due post.",
+    "La riga 2 non è un'altra apertura, è il compimento della riga 1. Non sprecarla per preparare la 3.",
+    "Niente punto di domanda nella riga 1, a meno che la domanda sia così precisa che puoi farla solo tu.",
+    "I numeri battono gli aggettivi. '4.200 euro' batte 'un sacco di soldi', sempre.",
+    "Se l'apertura funziona anche con il nome di un altro sopra, non è la tua apertura.",
+    "Tu o Lei: decidilo una volta in voce.md e non cambiarlo a metà post."
+  ],
+  "hooks": [
+    {
+      "id": 1,
+      "name": "Controcorrente",
+      "template": "Tutti dicono {consiglio comune}. Dopo {esperienza specifica}, penso che sia sbagliato.",
+      "example": "Tutti dicono di pubblicare ogni giorno. Per un anno ho pubblicato 3 volte a settimana e ho fatto meglio di chiunque nel mio settore.",
+      "best_for": "Prendere una posizione. Di solito è la formula che fa più commentare.",
+      "trap": "Andare controcorrente su qualcosa che nessuno crede. La convinzione deve essere davvero diffusa."
+    },
+    {
+      "id": 2,
+      "name": "Il numero",
+      "template": "Ho {fatto una cosa} per {N} {giorni/settimane}. Ecco com'è andata davvero.",
+      "example": "Ho mandato 200 messaggi a CTO italiani in 30 giorni. Hanno risposto in 9. Due sono diventati clienti.",
+      "best_for": "Esperimenti, sfide, tutto ciò che ha un risultato contabile.",
+      "trap": "Nascondere il numero. Deve stare nella prima riga, altrimenti la formula non funziona."
+    },
+    {
+      "id": 3,
+      "name": "L'errore confessato",
+      "template": "{Costo preciso}: ecco quanto mi è costato {un errore}.",
+      "example": "4.000 euro: ecco quanto mi è costato lavorare senza contratto per un cliente lo scorso marzo.",
+      "best_for": "Fiducia. Si condividono di più i post in cui fai brutta figura.",
+      "trap": "L'errore finto-umile. 'Sono troppo perfezionista' è un vanto travestito e affossa il post."
+    },
+    {
+      "id": 4,
+      "name": "Prima / Dopo",
+      "template": "{Tempo fa} {situazione difficile}. Oggi {situazione migliore}. La differenza l'ha fatta {una cosa}.",
+      "example": "Due anni fa scrivevo preventivi a mezzanotte. Oggi li mando in 10 minuti. È bastato un modello.",
+      "best_for": "Dimostrare di aver fatto la strada che il lettore vuole fare.",
+      "trap": "Trasformazioni in tre passaggi. Nomina una sola leva o il lettore smette di crederti."
+    },
+    {
+      "id": 5,
+      "name": "La lista",
+      "template": "{N} cose che avrei voluto sapere prima di {traguardo}.",
+      "example": "5 cose che avrei voluto sapere prima di aprire la partita IVA.",
+      "best_for": "Salvataggi. È il formato che si salva di più, e LinkedIn li pesa molto.",
+      "trap": "N sopra 10. Il lettore non crede che tu ne abbia 15 buone, e infatti non le hai."
+    },
+    {
+      "id": 6,
+      "name": "Il dietro le quinte",
+      "template": "Dopo {N} anni a {fare una cosa}, ecco la parte che nessuno scrive {nell'annuncio/nel corso/nel preventivo}.",
+      "example": "Dopo 6 anni di consulenza per la PA, ecco la parte che nessuno scrive nei bandi.",
+      "best_for": "Opinioni da esperto. Funziona solo se gli anni sono veri.",
+      "trap": "Promettere un segreto e consegnare l'ovvio. Te lo diranno nei commenti."
+    },
+    {
+      "id": 7,
+      "name": "Lo stop",
+      "template": "Se ancora {fai una cosa superata}, smetti.",
+      "example": "Se ancora mandi il CV in PDF senza link al portfolio, smetti.",
+      "best_for": "Post brevi con un'istruzione sola. Il più veloce da scrivere.",
+      "trap": "Prendersela con qualcosa che nessuno fa. O peggio, trattare il tuo pubblico con disprezzo."
+    },
+    {
+      "id": 8,
+      "name": "La domanda-scenario",
+      "template": "{Scenario concreto con un costo vero}. Tu cosa faresti?",
+      "example": "Un cliente ti chiede uno sconto del 30% a lavoro finito, la fattura è già emessa. Tu cosa faresti?",
+      "best_for": "Commenti. Le persone rispondono agli scenari, ignorano 'cosa ne pensate?'.",
+      "trap": "Una domanda con una risposta ovvia. Ci deve essere un bivio vero."
+    },
+    {
+      "id": 9,
+      "name": "Si apre col dialogo",
+      "template": "\"{Una battuta di dialogo}\"\n\n{Chi l'ha detta, quando, e perché ha contato}.",
+      "example": "\"Lo facciamo fare a un ragazzo che costa meno.\"\n\nMe l'ha detto un cliente due anni fa, il giorno in cui ho alzato le tariffe.",
+      "best_for": "Racconti lunghi. Il tempo di lettura più alto.",
+      "trap": "Battute che nessuno direbbe. Usa quella vera, anche le parti brutte."
+    },
+    {
+      "id": 10,
+      "name": "La prova",
+      "template": "{Screenshot o numero preciso}. {Una frase di contesto}.",
+      "example": "Da 1.200 a 14.000 visite al mese in sei mesi. Senza un euro di pubblicità.",
+      "best_for": "Tutto ciò che puoi dimostrare. Con un'immagine allegata gira di più.",
+      "trap": "Una prova senza storia. Il numero apre la porta, la storia è la stanza."
+    },
+    {
+      "id": 11,
+      "name": "Il falso mito",
+      "template": "{Spiegazione diffusa} non è il motivo per cui {problema} succede a te.",
+      "example": "Il mercato saturo non è il motivo per cui non trovi clienti come freelance.",
+      "best_for": "Cambiare prospettiva. Prepara la causa vera nella terza riga.",
+      "trap": "Smontare il mito senza dire qual è la causa vera. Nominala sempre."
+    },
+    {
+      "id": 12,
+      "name": "Il confronto",
+      "template": "{Opzione costosa} contro {opzione economica}. {Verdetto inatteso}.",
+      "example": "Un gestionale da 300 euro al mese contro un foglio Google e un sabato pomeriggio. Ha vinto il sabato.",
+      "best_for": "Post su strumenti e processi. Si condivide molto.",
+      "trap": "Un confronto truccato. Ammetti cosa fa meglio l'opzione costosa."
+    },
+    {
+      "id": 13,
+      "name": "Il permesso",
+      "template": "Puoi {cosa per cui il lettore si sente in colpa}.",
+      "example": "Puoi non rispondere alle email del cliente dopo le 19. Anche se paga bene.",
+      "best_for": "Andare oltre la tua nicchia. Questi post viaggiano più di quelli tecnici.",
+      "trap": "Il benessere generico. Deve riguardare la vita lavorativa precisa del tuo lettore."
+    },
+    {
+      "id": 14,
+      "name": "Lo stacco",
+      "template": "{Una parola, o tre, punto.}",
+      "example": "Licenziato.",
+      "best_for": "Fermare lo scorrimento. Lo spazio bianco fa il lavoro.",
+      "trap": "Abusarne. Una volta al mese. Se ogni post inizia così, diventa un tic."
+    },
+    {
+      "id": 15,
+      "name": "L'avvertimento",
+      "template": "{Abitudine comune} ti sta costando, in silenzio, {cosa a cui tieni}.",
+      "example": "Rispondere a tutti i messaggi entro un'ora ti sta costando, in silenzio, le tue ore migliori.",
+      "best_for": "Chi ha il problema ma non ha collegato la causa al costo.",
+      "trap": "Paura senza via d'uscita. Dai la soluzione nello stesso post, o hai solo messo ansia."
+    },
+    {
+      "id": 16,
+      "name": "Bravo / Bravissimo",
+      "template": "Un {ruolo} bravo {fa X}. Uno bravissimo {fa Y}.",
+      "example": "Un buon developer chiude il ticket. Uno bravissimo chiede perché quel ticket esiste.",
+      "best_for": "Frasi citabili. Si fanno screenshot.",
+      "trap": "Una differenza che è solo 'impegnati di più'. Y deve essere un'azione diversa, non più fatica."
+    },
+    {
+      "id": 17,
+      "name": "L'ancora di tempo",
+      "template": "{Compito} mi richiedeva {tanto tempo}. Ora ci metto {poco tempo}.",
+      "example": "Scrivere i test di un componente mi richiedeva un pomeriggio. Ora ci metto 40 minuti, revisione compresa.",
+      "best_for": "Strumenti, sistemi, automazioni. La forma più forte per un tutorial.",
+      "trap": "Un rapporto poco credibile. Da 5 ore a 40 minuti regge. Da 5 ore a 8 secondi no."
+    },
+    {
+      "id": 18,
+      "name": "La regola impopolare",
+      "template": "Io non {pratica accettata}. Mai. Ecco perché.",
+      "example": "Io non faccio colloqui con prova tecnica non pagata. Mai. Ecco perché.",
+      "best_for": "Posizionamento. Attira i clienti giusti respingendo quelli sbagliati.",
+      "trap": "Una regola che infrangi di continuo. Qualcuno nei commenti lo sa."
+    },
+    {
+      "id": 19,
+      "name": "La curiosità",
+      "template": "{Il più/la più} {cosa} che abbia mai {verbo} {ha infranto la regola ovvia}.",
+      "example": "Il miglior cliente che abbia mai avuto mi ha trovato per un post in cui ammettevo di aver sbagliato.",
+      "best_for": "Aperture che costringono a toccare 'vedi altro'.",
+      "trap": "Una curiosità che non chiudi. Pagala entro la quarta riga, o è clickbait."
+    },
+    {
+      "id": 20,
+      "name": "L'addio",
+      "template": "Ho {lasciato/licenziato/cancellato/chiuso} {cosa di valore}. {Risultato}.",
+      "example": "Ho chiuso con il cliente che pagava di più. In tre mesi ho fatturato di più, e dormo meglio.",
+      "best_for": "Post sui valori con un risultato concreto. Coinvolgono molto.",
+      "trap": "Andarsene senza un costo. Dì cosa ti è costato davvero, o sembra teatro."
+    },
+    {
+      "id": 21,
+      "name": "Il regalo",
+      "template": "Ecco esattamente {lo strumento/il modello} che uso per {risultato preciso}. Prendilo.",
+      "example": "Ecco il CLAUDE.md esatto che uso nei progetti React per non far toccare a Claude i file sbagliati. Prendilo.",
+      "best_for": "Lead magnet e post 'commenta per il link'. Di solito quello che converte di più.",
+      "trap": "Far chiedere qualcosa che potevi semplicemente pubblicare. Regala lo strumento nel post."
+    }
+  ]
+}

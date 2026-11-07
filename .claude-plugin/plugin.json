@@ -1,0 +1,12 @@
+{
+  "name": "linkedin-agent-italia",
+  "description": "Tredici skill per Claude che gestiscono un account LinkedIn in italiano: post con 21 formule di apertura, commenti, risposte, punteggio del profilo, piano settimanale con il calendario italiano, messaggi, casella, caroselli, riuso dei contenuti, analisi, post bilingue IT/EN, post dal lavoro tecnico senza dati riservati, e un umanizzatore italiano che toglie i cliché dell'IA e valuta la bozza prima che esca.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jacopo Marini",
+    "url": "https://github.com/JacopoMarini"
+  },
+  "repository": "https://github.com/JacopoMarini/linkedin-agent-italia",
+  "license": "MIT",
+  "keywords": ["linkedin", "italiano", "contenuti", "scrittura", "umanizzatore", "social", "marketing", "bilingue"]
+}

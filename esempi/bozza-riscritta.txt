@@ -1,0 +1,9 @@
+A marzo abbiamo messo Claude in mano a tutto il team frontend. Sei persone, due mesi di prova.
+
+Mi aspettavo più velocità. È arrivata, ma non dove pensavo: le pull request sono passate da 3 giorni a 1 di revisione in media, perché le descrizioni ora le scrive Claude e i colleghi capiscono subito cosa guardare.
+
+Il codice, invece, l'abbiamo scritto più o meno come prima.
+
+La cosa che ha funzionato davvero è stata banale. Ogni venerdì 20 minuti in cui uno di noi mostra un prompt che gli ha risparmiato tempo. Niente slide.
+
+Voi le descrizioni delle PR le scrivete ancora a mano?

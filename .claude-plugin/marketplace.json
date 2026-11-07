@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "linkedin-agent-italia",
+  "description": "Il pacchetto di skill LinkedIn per Claude, in italiano",
+  "owner": {
+    "name": "Jacopo Marini",
+    "url": "https://github.com/JacopoMarini"
+  },
+  "plugins": [
+    {
+      "name": "linkedin-agent-italia",
+      "description": "Tredici skill che gestiscono un account LinkedIn in italiano, con un umanizzatore che riconosce i cliché dell'IA in italiano e valuta la bozza con cinque controlli.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
