@@ -102,6 +102,8 @@ def passo_tipografia(text, lex):
         hits.append({"name": f"{ch} {voce['name']}", "count": n,
                      "to": voce["to"].strip() or "(spazio)"})
         if ch == "—":
+            # Lineetta a fine riga: si toglie e basta, senza lasciare virgole.
+            text = re.sub(r"[ \t]*—[ \t]*(?=\n|$)", "", text)
             text = re.sub(r"\s*—\s*", ", ", text)
         elif ch == "–":
             text = re.sub(r"\s*–\s*(?=\d)", "-", text)      # 5–10 -> 5-10
@@ -111,7 +113,8 @@ def passo_tipografia(text, lex):
             text = text.replace(ch, voce["to"])
     # Una virgola inserita prima di altra punteggiatura suona male.
     text = re.sub(r",\s*([,.;:!?])", r"\1", text)
-    text = re.sub(r",\s*\n", "\n", text)
+    # (Niente regola generica "virgola + a capo": cancellava la virgola dei
+    # saluti, "Ciao Mario,", e la riga vuota che li segue.)
     return text, hits
 
 

@@ -161,7 +161,7 @@ storia vera:
   31.4 SEGNALATO  ->  95.1 PASSA   (+63.7)
 ```
 
-In inglese i punteggi sono identici a quelli dello script originale, con una differenza voluta: il testo tra virgolette ("...", «...», “...”) è trattato come citazione e non viene né riscritto né contato. Un post che prende in giro "sono entusiasta di annunciare" non deve vederselo correggere.
+In inglese i punteggi sono identici a quelli dello script originale, con una differenza voluta: il testo tra virgolette ("...", «...», “...”) è trattato come citazione e non viene né riscritto né contato. Un post che prende in giro "sono entusiasta di annunciare" non deve vederselo correggere. E una virgola seguita da un a capo ("Ciao Mario,") resta dov'è: l'originale la toglieva insieme alla riga vuota successiva.
 
 ## Le avvertenze, che sono la parte onesta
 
