@@ -1,5 +1,8 @@
 # LinkedIn Agent Italia
 
+[![Licenza: MIT](https://img.shields.io/badge/licenza-MIT-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/JacopoMarini/linkedin-agent-italia?style=social)](https://github.com/JacopoMarini/linkedin-agent-italia/stargazers)
+
 Tredici skill per Claude che gestiscono un account LinkedIn **in italiano**.
 Gratis, licenza MIT, nessuna iscrizione, nessuna chiave API, niente da collegare.
 
@@ -61,6 +64,13 @@ Oppure come plugin:
 ```
 /plugin marketplace add JacopoMarini/linkedin-agent-italia
 /plugin install linkedin-agent-italia
+```
+
+Oppure con la [CLI skills](https://skills.sh), che le installa anche per Cursor,
+Codex e gli altri agenti:
+
+```bash
+npx skills add JacopoMarini/linkedin-agent-italia
 ```
 
 Per un solo progetto invece che globale: copia le stesse cartelle in
